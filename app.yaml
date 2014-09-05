@@ -9,8 +9,10 @@ handlers:
   static_dir: css
 - url: /js
   static_dir: js
-- url: /img
-  static_dir: img
+- url: /images
+  static_dir: images
+- url: /fonts
+  static_dir: fonts
 - url: /.*
   script: main.app
 
