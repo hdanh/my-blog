@@ -139,21 +139,17 @@ class SignupHandler(BaseHandler):
  
     self.display_message(msg.format(url=verification_url))
 
-class MainPage(webapp2.RequestHandler):
-    def get(self):
-        template = JINJA_ENV.get_template('index.html')
-        template_values = {}
-        self.response.write(template.render(template_values))
+class MainHandler(BaseHandler):
+  def get(self):
+    self.render_template('index.html')
 
-class Contact(webapp2.RequestHandler):
-	def get(self):
-		template = JINJA_ENV.get_template('contact.html')
-		template_values = {}
-		self.response.write(template.render(template_values))
+class ContactHandler(BaseHandler):
+  def get(self):
+    self.render_template('contact.html')
         
         
 
 app = webapp2.WSGIApplication([
-    ('/', MainPage),
-    ('/contact', Contact)
-])
+    webapp2.Route('/', MainHandler, name="home"),
+    webapp2.Route('/contact', ContactHandler, name="contact")
+], config=config)
