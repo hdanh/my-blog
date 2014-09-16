@@ -26,11 +26,14 @@ JINJA_ENV = jinja2.Environment(
 
 config = {
   'webapp2_extras.auth': {
-    'user_model': 'models.User',
+    'user_model': 'models.user.User',
     'user_attributes': ['name']
   },
   'webapp2_extras.sessions': {
     'secret_key': '5655edb0-e107-42ba-8109-9b7837e078be'
+  },
+  'jinja2': {
+     'template_dir': jinja2.FileSystemLoader(os.path.dirname(__file__))
   }
 }
 
