@@ -1,8 +1,11 @@
 import jinja2
 import webapp2
+import logging
 
 from webapp2_extras import sessions
 from webapp2_extras import auth
+from webapp2_extras.auth import InvalidAuthIdError
+from webapp2_extras.auth import InvalidPasswordError
 
 from main import root_dir
 

@@ -1,6 +1,8 @@
+from base import BaseHandler
+
 class SignupHandler(BaseHandler):
   def get(self):
-    self.render_template('signup.html')
+    self.render_template('views/user/signup.html')
 
   def post(self):
     user_name = self.request.get('username')

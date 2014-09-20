@@ -4,8 +4,6 @@ Created on Sep 5, 2014
 @author: Chip
 '''
 
-from webapp2_extras.auth import InvalidAuthIdError
-from webapp2_extras.auth import InvalidPasswordError
 import os
 
 import webapp2
@@ -27,5 +25,7 @@ config = {
 
 app = webapp2.WSGIApplication([
     webapp2.Route('/', handler='handlers.home.MainHandler', name='home'),
-    webapp2.Route('/contact', handler='handlers.contact.ContactHandler', name="contact")
+    webapp2.Route('/contact', handler='handlers.contact.ContactHandler', name='contact'),
+    webapp2.Route('/signup', handler='handlers.signup.SignupHandler', name='signup'),
+    webapp2.Route('/login', handler='handlers.login.LoginHandler', name='login')
 ], config=config)
