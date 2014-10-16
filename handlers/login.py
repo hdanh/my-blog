@@ -11,9 +11,8 @@ class LoginHandler(BaseHandler):
 
     def _serve_page(self, failed=False):
         form=login_form.LoginForm(formdata=self.request.params)
-        form.password = ''
         params= {
             'form': form,
             'failed': failed
         }
-        self.render_template('views/user/login.html', params)
+        self.render_template('views/login.html', params)
