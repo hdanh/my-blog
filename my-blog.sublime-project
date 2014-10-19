@@ -1,0 +1,16 @@
+{
+	"folders":
+	[
+		{
+			"file_exclude_patterns":
+			[
+				".project",
+				".pydevproject",
+				"LICENSE.txt",
+				"README.md"
+			],
+			"follow_symlinks": true,
+			"path": "."
+		}
+	]
+}
