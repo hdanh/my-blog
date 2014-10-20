@@ -4,6 +4,46 @@
 		"selected_items":
 		[
 			[
+				"Re",
+				"Required  (class)"
+			],
+			[
+				"E",
+				"EqualTo  (class)"
+			],
+			[
+				"Pass",
+				"PasswordField"
+			],
+			[
+				"form",
+				"forms  (module)"
+			],
+			[
+				"re",
+				"Required  (class)"
+			],
+			[
+				"Pas",
+				"PasswordField"
+			],
+			[
+				"R",
+				"Required  (class)"
+			],
+			[
+				"valida",
+				"validators"
+			],
+			[
+				"req",
+				"required  (variable)"
+			],
+			[
+				"text",
+				"TextField"
+			],
+			[
 				"inc",
 				"include"
 			]
@@ -12,44 +52,52 @@
 	"buffers":
 	[
 		{
+			"file": "layout/main-layout.html",
+			"settings":
+			{
+				"buffer_size": 3474,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "views/index.html",
+			"settings":
+			{
+				"buffer_size": 5504,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "handlers/auth.py",
+			"settings":
+			{
+				"buffer_size": 1987,
+				"line_ending": "Windows"
+			}
+		},
+		{
 			"file": "forms/auth/auth_forms.py",
 			"settings":
 			{
-				"buffer_size": 321,
+				"buffer_size": 1101,
 				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "views/auth/signup.html",
-			"settings":
-			{
-				"buffer_size": 5139,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "views/auth/signin.html",
-			"settings":
-			{
-				"buffer_size": 4291,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/C/Users/admin/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
-			"settings":
-			{
-				"buffer_size": 826,
-				"line_ending": "Unix"
 			}
 		}
 	],
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 335.0,
+		"height": 85.0,
 		"selected_items":
 		[
+			[
+				"jin",
+				"Set Syntax: HTML (Jinja Templates)"
+			],
+			[
+				"set syntax: jin",
+				"Set Syntax: Jinja Templates"
+			],
 			[
 				"Package Control: ",
 				"Package Control: Install Package"
@@ -77,11 +125,13 @@
 	"expanded_folders":
 	[
 		"/C/Users/admin/Desktop/git-repo/my-blog",
-		"/C/Users/admin/Desktop/git-repo/my-blog/assets",
 		"/C/Users/admin/Desktop/git-repo/my-blog/assets/css",
+		"/C/Users/admin/Desktop/git-repo/my-blog/forms",
 		"/C/Users/admin/Desktop/git-repo/my-blog/forms/auth",
-		"/C/Users/admin/Desktop/git-repo/my-blog/layout",
+		"/C/Users/admin/Desktop/git-repo/my-blog/handlers",
+		"/C/Users/admin/Desktop/git-repo/my-blog/libs/wtforms",
 		"/C/Users/admin/Desktop/git-repo/my-blog/libs/wtforms/fields",
+		"/C/Users/admin/Desktop/git-repo/my-blog/models",
 		"/C/Users/admin/Desktop/git-repo/my-blog/views",
 		"/C/Users/admin/Desktop/git-repo/my-blog/views/admin",
 		"/C/Users/admin/Desktop/git-repo/my-blog/views/auth",
@@ -89,7 +139,19 @@
 	],
 	"file_history":
 	[
+		"/C/Users/admin/Desktop/git-repo/my-blog/handlers/blogs.py",
+		"/C/Python27/lib/site-packages/wtforms/validators.py",
+		"/C/Users/admin/Desktop/git-repo/my-blog/handlers/signup.py",
+		"/C/Users/admin/Desktop/git-repo/my-blog/handlers/login.py",
+		"/C/Users/admin/Desktop/git-repo/my-blog/views/blogs/index.html",
+		"/C/Users/admin/Desktop/git-repo/my-blog/handlers/auth.py",
+		"/C/Users/admin/Desktop/git-repo/my-blog/handlers/admin.py",
 		"/C/Users/admin/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Users/admin/Desktop/git-repo/my-blog/models/user.py",
+		"/C/Users/admin/Desktop/git-repo/my-blog/views/index.html",
+		"/C/Users/admin/Desktop/git-repo/my-blog/forms/auth/auth_forms.py",
+		"/C/Users/admin/Desktop/git-repo/my-blog/views/auth/signup.html",
+		"/C/Users/admin/Desktop/git-repo/my-blog/views/auth/signin.html",
 		"/C/Users/admin/Desktop/git-repo/my-blog/forms/auth/signup_form.py",
 		"/C/Users/admin/Desktop/git-repo/my-blog/forms/auth/__init__.py",
 		"/C/Users/admin/Desktop/git-repo/my-blog/forms/login_form.py",
@@ -99,16 +161,12 @@
 		"/C/Users/admin/AppData/Roaming/Sublime Text 3/Packages/User/HTML (Jinja Templates).sublime-settings",
 		"/C/Users/admin/Desktop/git-repo/my-blog/views/about.html",
 		"/C/Users/admin/Desktop/git-repo/my-blog/handlers/home.py",
-		"/C/Users/admin/Desktop/git-repo/my-blog/models/user.py",
-		"/C/Users/admin/Desktop/git-repo/my-blog/handlers/blogs.py",
 		"/C/Users/admin/Desktop/git-repo/my-blog/views/sidebar-right.html",
 		"/C/Users/admin/Desktop/git-repo/my-blog/views/sidebar-left.html",
 		"/C/Users/admin/Desktop/git-repo/my-blog/views/contact.html",
-		"/C/Users/admin/Desktop/git-repo/my-blog/views/blogs/index.html",
 		"/C/Users/admin/Desktop/git-repo/my-blog/views/signup.html",
 		"/C/Users/admin/Desktop/git-repo/my-blog/main.py",
 		"/C/Users/admin/Desktop/git-repo/my-blog/layout/head-include.html",
-		"/C/Users/admin/Desktop/git-repo/my-blog/views/index.html",
 		"/C/Users/admin/Desktop/git-repo/my-blog/layout/navbar.html",
 		"/C/Users/admin/AppData/Roaming/Sublime Text 3/Packages/User/Pylinter.sublime-settings",
 		"/C/Users/admin/AppData/Roaming/Sublime Text 3/Packages/Pylinter/Pylinter.sublime-settings",
@@ -123,7 +181,7 @@
 	],
 	"find":
 	{
-		"height": 36.0
+		"height": 23.0
 	},
 	"find_in_files":
 	{
@@ -163,19 +221,287 @@
 			[
 				{
 					"buffer": 0,
-					"file": "forms/auth/auth_forms.py",
+					"file": "layout/main-layout.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 321,
+						"buffer_size": 3474,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								75,
-								75
+								260,
+								260
+							]
+						],
+						"settings":
+						{
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": true,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"PyWin32",
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": true,
+							"codeintel_syntax_map":
+							{
+								"Python Django": "Python"
+							},
+							"codeintel_tooltips": "popup",
+							"open_with_edit": true,
+							"sublime_auto_complete": true,
+							"syntax": "Packages/Jinja2/Syntaxes/HTML (Jinja Templates).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 45.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "views/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5504,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5488,
+								5488
+							]
+						],
+						"settings":
+						{
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": true,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"PyWin32",
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": true,
+							"codeintel_syntax_map":
+							{
+								"Python Django": "Python"
+							},
+							"codeintel_tooltips": "popup",
+							"sublime_auto_complete": true,
+							"syntax": "Packages/Jinja2/Syntaxes/HTML (Jinja Templates).tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1494.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "handlers/auth.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1987,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								689,
+								689
 							]
 						],
 						"settings":
@@ -290,290 +616,24 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "views/auth/signup.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 5139,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								876,
-								876
-							]
-						],
-						"settings":
-						{
-							"codeintel": true,
-							"codeintel_config":
-							{
-								"JavaScript":
-								{
-									"codeintel_max_recursive_dir_depth": 2,
-									"codeintel_scan_files_in_project": false,
-									"javascriptExtraPaths":
-									[
-									]
-								},
-								"PHP":
-								{
-									"codeintel_max_recursive_dir_depth": 5,
-									"codeintel_scan_files_in_project": false,
-									"phpExtraPaths":
-									[
-									]
-								},
-								"Python":
-								{
-									"env":
-									{
-									}
-								}
-							},
-							"codeintel_enabled_languages":
-							[
-								"JavaScript",
-								"Mason",
-								"XBL",
-								"XUL",
-								"RHTML",
-								"SCSS",
-								"Python",
-								"HTML",
-								"Ruby",
-								"Python3",
-								"XML",
-								"Sass",
-								"XSLT",
-								"Django",
-								"HTML5",
-								"Perl",
-								"CSS",
-								"Twig",
-								"Less",
-								"Smarty",
-								"Node.js",
-								"Tcl",
-								"TemplateToolkit",
-								"PHP"
-							],
-							"codeintel_live": true,
-							"codeintel_live_enabled_languages":
-							[
-								"JavaScript",
-								"Mason",
-								"XBL",
-								"XUL",
-								"RHTML",
-								"SCSS",
-								"Python",
-								"HTML",
-								"Ruby",
-								"Python3",
-								"XML",
-								"Sass",
-								"XSLT",
-								"Django",
-								"HTML5",
-								"Perl",
-								"CSS",
-								"Twig",
-								"Less",
-								"Smarty",
-								"Node.js",
-								"Tcl",
-								"TemplateToolkit",
-								"PHP"
-							],
-							"codeintel_max_recursive_dir_depth": 10,
-							"codeintel_scan_exclude_dir":
-							{
-								"JavaScript":
-								[
-									"/build/",
-									"/min/"
-								]
-							},
-							"codeintel_scan_files_in_project": true,
-							"codeintel_selected_catalogs":
-							[
-								"PyWin32",
-								"jQuery",
-								"Rails"
-							],
-							"codeintel_snippets": true,
-							"codeintel_syntax_map":
-							{
-								"Python Django": "Python"
-							},
-							"codeintel_tooltips": "popup",
-							"sublime_auto_complete": true,
-							"syntax": "Packages/Jinja2/Syntaxes/HTML (Jinja Templates).tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 410.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "views/auth/signin.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 4291,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1090,
-								1090
-							]
-						],
-						"settings":
-						{
-							"codeintel": true,
-							"codeintel_config":
-							{
-								"JavaScript":
-								{
-									"codeintel_max_recursive_dir_depth": 2,
-									"codeintel_scan_files_in_project": false,
-									"javascriptExtraPaths":
-									[
-									]
-								},
-								"PHP":
-								{
-									"codeintel_max_recursive_dir_depth": 5,
-									"codeintel_scan_files_in_project": false,
-									"phpExtraPaths":
-									[
-									]
-								},
-								"Python":
-								{
-									"env":
-									{
-									}
-								}
-							},
-							"codeintel_enabled_languages":
-							[
-								"JavaScript",
-								"Mason",
-								"XBL",
-								"XUL",
-								"RHTML",
-								"SCSS",
-								"Python",
-								"HTML",
-								"Ruby",
-								"Python3",
-								"XML",
-								"Sass",
-								"XSLT",
-								"Django",
-								"HTML5",
-								"Perl",
-								"CSS",
-								"Twig",
-								"Less",
-								"Smarty",
-								"Node.js",
-								"Tcl",
-								"TemplateToolkit",
-								"PHP"
-							],
-							"codeintel_live": true,
-							"codeintel_live_enabled_languages":
-							[
-								"JavaScript",
-								"Mason",
-								"XBL",
-								"XUL",
-								"RHTML",
-								"SCSS",
-								"Python",
-								"HTML",
-								"Ruby",
-								"Python3",
-								"XML",
-								"Sass",
-								"XSLT",
-								"Django",
-								"HTML5",
-								"Perl",
-								"CSS",
-								"Twig",
-								"Less",
-								"Smarty",
-								"Node.js",
-								"Tcl",
-								"TemplateToolkit",
-								"PHP"
-							],
-							"codeintel_max_recursive_dir_depth": 10,
-							"codeintel_scan_exclude_dir":
-							{
-								"JavaScript":
-								[
-									"/build/",
-									"/min/"
-								]
-							},
-							"codeintel_scan_files_in_project": true,
-							"codeintel_selected_catalogs":
-							[
-								"PyWin32",
-								"jQuery",
-								"Rails"
-							],
-							"codeintel_snippets": true,
-							"codeintel_syntax_map":
-							{
-								"Python Django": "Python"
-							},
-							"codeintel_tooltips": "popup",
-							"sublime_auto_complete": true,
-							"syntax": "Packages/Jinja2/Syntaxes/HTML (Jinja Templates).tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 323.0,
-						"zoom_level": 1.0
-					},
 					"stack_index": 0,
 					"type": "text"
 				},
 				{
 					"buffer": 3,
-					"file": "/C/Users/admin/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+					"file": "forms/auth/auth_forms.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 826,
+						"buffer_size": 1101,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								823,
-								823
+								1100,
+								1100
 							]
 						],
 						"settings":
@@ -682,11 +742,10 @@
 							},
 							"codeintel_tooltips": "popup",
 							"sublime_auto_complete": true,
-							"syntax": "Packages/JavaScript/JSON.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/Python/Python.tmLanguage"
 						},
-						"translation.x": -0.0,
-						"translation.y": 9.0,
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,

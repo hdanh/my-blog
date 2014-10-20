@@ -1,4 +1,28 @@
 from base import BaseHandler
+from forms.auth.auth_forms import LoginForm, SignupForm
+
+class LoginHandler(BaseHandler):
+  """Login handler"""
+  def get(self):
+    self._serve_page()
+
+  def post(self):
+    form = LoginForm(formdata=self.request.params)
+    try:
+      u = self.auth.get_user_by_password(form.username,
+        form.password, remember=True, save_session=True)
+      self.redirect(self.uri_for('home'))
+    except (InvalidAuthIdError, InvalidPasswordError) as e:
+      logging.info('Login failed for user %s because of %s', username, type(e))
+      self._serve_page(True)
+
+  def _serve_page(self, failed=False):
+    form = LoginForm(formdata=self.request.params)
+    params = {
+        'form': form,
+        'failed': failed
+    }
+    self.render_template('views/auth/signin.html', params)
 
 class SignupHandler(BaseHandler):
   def get(self):
