@@ -1,17 +1,21 @@
-    <div class="navbar navbar-inverse navbar-fixed-top headroom" >
-        <div class="container">
-            <div class="navbar-header">
-                <!-- Button for smallest screens -->
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"><span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
-            </div>
-            <div class="navbar-collapse collapse">
-                <ul class="nav navbar-nav pull-right">
-                    <li><a href="/">Home</a></li>
-                    <li><a href="/blogs">Blogs</a></li>
-                    <li><a href="/about">About</a></li>
-                    <li><a href="/contact">Contact</a></li>
-                    <li><a class="btn" href="/signin">SIGN IN / SIGN UP</a></li>
-                </ul>
-            </div><!--/.nav-collapse -->
+<div class="navbar navbar-inverse navbar-fixed-top headroom" >
+  <div class="container">
+    <div class="navbar-header">
+            <!-- Button for smallest screens -->
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"><span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
         </div>
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav pull-right">
+                <li><a href="/">Home</a></li>
+                <li><a href="/blogs">Blogs</a></li>
+                <li><a href="/about">About</a></li>
+                <li><a href="/contact">Contact</a></li>
+                {% if not user %}
+                    <li><a class="btn" href="/auth/signin">SIGN IN / SIGN UP</a></li>
+                {% else %}
+                    <li>Welcome, <a class="btn" href="/">{{user.username}}</a>
+                {% endif %}
+            </ul>
+        </div><!--/.nav-collapse -->
     </div>
+</div>

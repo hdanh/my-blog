@@ -27,7 +27,7 @@ config = {
 app = webapp2.WSGIApplication([
     webapp2.Route('/', handler='handlers.home.MainHandler', name='home'),
     webapp2.Route('/contact', handler='handlers.contact.ContactHandler', name='contact'),
-    webapp2.Route('/signup', handler='handlers.signup.SignupHandler', name='signup'),
-    webapp2.Route('/login', handler='handlers.login.LoginHandler', name='login'),
+    webapp2.Route('/auth/signup', handler='handlers.auth.SignupHandler', name='signup'),
+    webapp2.Route('/auth/signin', handler='handlers.auth.LoginHandler', name='signin'),
     webapp2.Route('/blogs', handler='handlers.blogs.IndexHandler', name='blogs')
-], config=config)
+], config=config, debug=True)
