@@ -1,4 +1,5 @@
-{% extends "layout/main-layout.html" %}
+{% extends "views/layout/main-layout.html" %}
+{% from 'views/layout/macros.html' import render_field %}
 {% block title %}
 	Sign In
 {% endblock %}
@@ -30,14 +31,11 @@
 
 							<form>
 								<div class="top-margin">
-									<label>Username/Email <span class="text-danger">*</span></label>
-									<input type="text" class="form-control">
+									{{render_field(form.username, required=true)}}
 								</div>
 								<div class="top-margin">
-									<label>Password <span class="text-danger">*</span></label>
-									<input type="password" class="form-control">
+									{{render_field(form.password, required=true)}}
 								</div>
-
 								<hr>
 
 								<div class="row">
